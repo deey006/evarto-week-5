@@ -1,0 +1,287 @@
+
+.header{
+background: url(../asset/Rectangle\ 36.jpg);
+height: 450px;
+mix-blend-mode: multiply;
+background-size: 100% 100%;
+background-position: center;
+object-fit: cover;
+}
+  
+  /*Navigation*/
+  .top{
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:transparent;
+   
+ }
+ #link{
+   width: 70%;
+ }
+ #link a{
+       margin-top: 15px;
+ }
+ .top a{
+     color: white;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     line-height: 18px;
+ 
+ }
+  #button {
+     font-family: Poppins;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 18px;
+ line-height: 27px;
+ color: #07031A;
+ flex: none;
+ order: 0;
+ align-self: center;
+ margin: 0px 10px;
+  padding: 1rem; 
+ border: none;
+ background: #FBD46D;
+ 
+   }
+   #button:hover{
+       background: rgb(251, 173, 109);
+   }
+ i.toggle{
+     color:white;
+ }
+ div.links a{
+     display: block;
+     margin-bottom: 1.5rem;
+ }
+ .top div.links{
+     margin-top: 2rem;
+     font-size: 0.8rem;
+     width: 100%;
+ }
+ .hide{
+    display: none;
+ }
+ 
+ @media only screen and (min-width: 992px) {
+     i.toggle{
+         display: none;
+     }
+     .top{
+         flex-direction: row;
+         padding: 0.3rem 3rem;
+     }
+     .top div.links{
+         display: flex;
+         margin-bottom: 0;
+         margin-left: auto;
+         width: 35%;
+         font-size: 0.8rem;
+         justify-content: space-between;
+     }
+   }
+  .header-title{
+      margin-top: 11rem;
+      margin-left: 6rem;
+  }
+  .header-title h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+
+  } 
+
+  /* IMPUT AREA */
+  .input-field{
+	background-size: 100% 100%;
+	background-position: center;
+	padding: 1.5rem 1rem;
+}
+.input-field label{
+	display: block;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #596E79;
+
+}
+.input-field{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.input-field div{
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.input-field input, textarea{
+	width: 100%;
+	padding: 0.8rem;
+	outline: none;
+    border: 1px solid #07031A;
+    box-sizing: border-box;
+}
+#message{
+    height: 300px;
+}
+.input-area button{
+    background: #07031A;
+    color: white;
+	padding: 1rem 2rem;
+	outline: none;
+    display: block;
+    margin-left: 14px;
+}
+.input-area button:hover{
+	color: gray;
+	background-color: black;
+}
+footer{
+    background: #1D2122;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 0;
+}
+.left{
+    padding: 0;
+    margin-bottom: 0px;
+    border-bottom: 0.8px solid white;
+}
+.left h4{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+color: #FFFFFF;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+.left p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.8;
+padding-top: 0;
+margin-top: 0;
+}
+.left span{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+opacity: 0.8;
+}
+.contact-img{
+    width: 250px;
+    margin-bottom: 0;
+}
+.right p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+.right span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    margin-top: 0;
+    padding-top: 0;
+}
+.holder{
+    border-bottom: 1px solid #FBD46D;
+    margin: 5rem;
+}
+.foot-btn{
+    margin-bottom: 4rem;
+    padding-top: 15px;
+}
+.foot-btn button{
+    padding: 15px 35px;
+}
+.last{
+    text-align: center;
+}
+.last span{
+    font-family: Raleway;
+font-style: normal;
+font-weight: 900;
+font-size: 19.6597px;
+line-height: 23px;
+padding-bottom: 1rem;
+}
+.last p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+}
+
+@media screen and (max-width: 990px) {
+.right{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.header-title h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+
+  } 
+  .header-title{
+    margin-left: 3.2rem;
+}
+.last{
+   text-align: left;
+   margin-left: 3.6rem;
+}
+
+
+    }
+    @media screen and (max-width: 320px) {
+        .right{
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+        .header-title h1{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+        
+          } 
+          .header-title{
+            margin-left: 3.2rem;
+        }
+        .last{
+          text-align: left;
+          margin-left: 3.6rem;
+       }
+        
+            }
+    
